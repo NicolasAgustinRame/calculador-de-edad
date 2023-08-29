@@ -23,7 +23,7 @@ function ageCalculate()
         (birthDetails.date > currentDate && birthDetails.month == currentMonth &&
         birthDetails.year == currentYear)
         ){
-            alert('Not born yet')
+            alert('No nacio todavía')
             displayResult("-","-","-")
             return;
         }
