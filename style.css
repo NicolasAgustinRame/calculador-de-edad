@@ -9,17 +9,19 @@
 
 body
 {
-    background-color: #B0E0E6;
+    background-color: #e2e37e;
 }
 
 .container {
     width: 40%;
     min-width: 450px;
-    position: absolute;
+    position:absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     padding: 50px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .container * 
 {
@@ -89,4 +91,11 @@ p
     font-size: 14px;
     color: #707070;
     font-weight: 400;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
 }
